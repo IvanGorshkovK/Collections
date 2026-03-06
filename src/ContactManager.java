@@ -14,7 +14,7 @@ public class ContactManager {
     // Добавление контакта
     public void addContact(Contact contact){
         if(contactSet.contains(contact)){
-            System.out.println("Контакт с таким телефоном уже существует");
+            System.out.println("Контакт с таким телефоном уже есть");
             return;
         }
 
